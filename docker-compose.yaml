@@ -1,9 +1,0 @@
-version: "3.8"
-
-services:
-  react-app:
-    image: my-portfolio-react:2.0  # Replace with your actual image name
-    container_name: react-app
-    ports:
-      - "3000:80"  # Maps host port 3000 to container's port 80
-    restart: unless-stopped
