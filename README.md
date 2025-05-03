@@ -4,7 +4,7 @@ Welcome to my personal portfolio website! This project showcases my skills, expe
 
 ## 🌐 Live Demo
 
-Check out the live demo of my portfolio [here](https://portfolio-type-nextjs.vercel.app).
+Check out the live demo of my portfolio [here](https://abhishekyadav.org).
 
 ## 📖 About the Project
 
@@ -26,7 +26,7 @@ This portfolio provides an interactive and informative showcase of my work, incl
 
 If you'd like to fork this repository and customize it for your own portfolio, follow these steps:
 
-1. Clone the repository: `git clone git clone https://github.com/amanpandey3956/Portfolio.git`.
+1. Clone the repository: `git clone git clone https://github.com/abhiee1898/my-portfolio.git`.
 
 2. Install the dependencies: `npm install or yarn install`.
 
@@ -46,4 +46,4 @@ Feel free to customize the content by replacing my information with your own in 
 
 ## 📬 Connect with Me
 
-- My [Links for Socials](https://linktr.ee/Aman.Pandey).
+- My [Links for Socials](https://linktr.ee/rao.abhi).
