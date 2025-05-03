@@ -10,9 +10,9 @@ import breaks from 'remark-breaks';
 import rehypePrettyCode from 'rehype-pretty-code'
 
 interface Props {
-  params: {
+  params: Promise<{
     slug: string
-  }
+  }>
 }
 
 export async function generateStaticParams() {
@@ -21,10 +21,11 @@ export async function generateStaticParams() {
 
   return files.map((file) => ({
     slug: file.replace(/\.md$/, ''),
-  }))
+  }));
 }
 
-export default async function BlogPage({ params }: Props) {
+export default async function BlogPage(props: Props) {
+  const params = await props.params;
   const filePath = path.join(process.cwd(), 'src/content/blogs', `${params.slug}.md`)
   const fileContent = fs.readFileSync(filePath, 'utf8')
   const { data, content } = matter(fileContent)
