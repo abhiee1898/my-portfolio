@@ -15,7 +15,7 @@ interface Props {
   }
 }
 
-export async function generateStaticParams(): Promise<{ slug: string }[]> {
+export async function generateStaticParams() {
   const blogDir = path.join(process.cwd(), 'src/content/blogs')
   const files = fs.readdirSync(blogDir)
 
@@ -24,7 +24,7 @@ export async function generateStaticParams(): Promise<{ slug: string }[]> {
   }))
 }
 
-export default async function BlogPage({ params }: {params: {slug : string}}) {
+export default async function BlogPage({ params }: Props) {
   const filePath = path.join(process.cwd(), 'src/content/blogs', `${params.slug}.md`)
   const fileContent = fs.readFileSync(filePath, 'utf8')
   const { data, content } = matter(fileContent)
