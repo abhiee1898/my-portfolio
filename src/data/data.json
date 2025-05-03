@@ -1,0 +1,37 @@
+{
+    "projects": [
+      {
+        "id": 1,
+        "title": "Hotel Management System",
+        "description": "Hotel Booking System is a web application that allows users to search for hotels, view details, and make reservations. It features a user-friendly interface, real-time availability checks, and secure payment processing.",
+        "image": "/projects/hotel.jpg",
+        "github": "https://github.com/abhiee1898/Hotel-Booking-System",
+        "demo": "https://github.com/abhiee1898/Hotel-Booking-System"
+      },
+      {
+        "id": 2,
+        "title": "Titanic Survival Prediction",
+        "description": "Developed a Titanic Survival Prediction web application using Python. The app allows users to input passenger details and predicts survival chances based on machine learning algorithms. It features a user-friendly interface, real-time predictions, and data visualization.",
+        "image": "/projects/titanic.jpg",
+        "github": "https://github.com/abhiee1898/Titanic-Survival-Prediction",
+        "demo": "https://github.com/abhiee1898/Titanic-Survival-Prediction" 
+      },
+      {
+        "id": 3,
+        "title": "Minesweeper Game",
+        "description": "Developed a Minesweeper game using Python. The game features a user-friendly interface, multiple difficulty levels, and real-time gameplay. It allows users to test their logic and problem-solving skills while having fun.",
+        "image": "/projects/minesweeper.jpg",
+        "github": "https://github.com/abhiee1898/Minesweeper",
+        "demo": "https://github.com/abhiee1898/Minesweeper" 
+      },
+      {
+        "id": 4,
+        "title": "Smart Wheelchair",
+        "description": "Developed a Smart Wheelchair project using Arduino and Raspberry Pi. The wheelchair is equipped with sensors for obstacle detection, voice control, and remote monitoring. It aims to enhance mobility and independence for individuals with disabilities.",
+        "image": "/projects/wheelchair.jpg",
+        "github": "https://github.com/abhiee1898/smart-wheelchair-arduino",
+        "demo": "https://github.com/abhiee1898/smart-wheelchair-arduino"
+      }
+    ]
+}
+  
