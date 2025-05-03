@@ -3,7 +3,7 @@ title: "Things We can Learn from Rockstar Movie !!"
 slug: "rockstar"
 date: "2025-10-01"
 summary: "Things We can Learn from Rockstar Movie !!"
-tags: ["Rockstar", ]
+tags: ["Rockstar" ]
 ---
 
 <img src="/projects/rockstar.jpg" alt="Shivoham" style="margin-bottom: 28px;" />
