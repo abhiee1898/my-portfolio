@@ -6,7 +6,7 @@ summary: "Things We can Learn from Rockstar Movie !!"
 tags: ["Rockstar" ]
 ---
 
-<img src="/projects/rockstar.jpg" alt="Shivoham" style="margin-bottom: 28px;" />
+<img src="/projects/rockstar.jpg" alt="rockstar" style="margin-bottom: 28px;" />
 
 
 It all depends on the way one perceives things. But Rockstar is yet a deep and philosophical movie. Starting from the beginning till the end, it tried to delivered certain messages which I felt and would like to share the same.
